@@ -1,0 +1,29 @@
+package br.inatel.dm102;
+
+public class Instagram extends RedeSocial {
+
+	@Override
+	public void postarFoto() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void postarVideo() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void postarComentario() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void curtirPublicacao() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

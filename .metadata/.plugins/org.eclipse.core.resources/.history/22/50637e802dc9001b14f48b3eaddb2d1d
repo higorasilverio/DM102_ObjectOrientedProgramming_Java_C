@@ -1,0 +1,39 @@
+package br.inatel.dm102;
+
+import java.util.Date;
+
+public class Ingresso {
+
+	private static long numberGenerator = 0;
+	protected static float taxaCartao = 0.05f;
+
+	private long numero;
+	protected float valorIngresso;
+	protected Date dataHoraCompra;
+
+	public Ingresso(float valorIngresso, Date dataHoraCompra) {
+		this.numero = Ingresso.numberGenerator;
+		this.valorIngresso = valorIngresso;
+		this.dataHoraCompra = dataHoraCompra;
+		Ingresso.numberGenerator++;
+	}
+
+	public float calculaTotalIngresso() {
+		return this.valorIngresso + (this.valorIngresso * Ingresso.taxaCartao);
+	}
+
+	public void mostraInfos() {
+		String tipo = "";
+		if (this instanceof Camarote)
+			tipo = "Camarote";
+		if (this instanceof VIP)
+			if (this instanceof Kids)
+				tipo = "Kids";
+			else
+				tipo = "VIP";
+		System.out.println("Informações do ingresso adicionado: " + "Tipo: " + tipo + ", " + "Numero: " + this.numero
+				+ ", " + "Valor do ingresso: " + this.valorIngresso + ", " + "Valor pago: "
+				+ this.calculaTotalIngresso() + ", " + "Data da inclusão: " + this.dataHoraCompra + ".");
+	}
+
+}

@@ -1,0 +1,19 @@
+package br.inatel.dm102;
+
+import java.util.Date;
+
+public class VendasCarnaval {
+
+	public static void main(String[] args) {
+
+		CarrinhoDeCompras carrinho1 = new CarrinhoDeCompras();
+		Kids ingressoKids = new Kids(1234, 125.5f, new Date(), "P", "MG123465");
+		carrinho1.addIngresso(ingressoKids);
+		VIP ingressoVIP1 = new VIP(1235, 250.75f, new Date(), "G");
+		carrinho1.addIngresso(ingressoVIP1);
+		Camarote ingressoCamarote1 = new Camarote(1236, 310.5f, new Date(), "M");
+		carrinho1.addIngresso(ingressoCamarote1);
+
+	}
+
+}

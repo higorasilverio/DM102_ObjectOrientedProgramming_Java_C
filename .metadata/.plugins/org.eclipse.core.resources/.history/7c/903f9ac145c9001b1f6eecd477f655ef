@@ -1,0 +1,15 @@
+package br.inatel.dm102;
+
+public class GooglePlus extends RedeSocial implements VideoConferencia, Compartilhamento {
+
+	@Override
+	public void compartilhar() {
+		System.out.println("*COMPARTILHOU ALGO NO GOOGLEPLUS*");
+	}
+
+	@Override
+	public void fazStreaming() {
+		System.out.println("*FEZ STREAMING THE UM JOGO NO GOOGLEPLUS*");
+	}
+
+}

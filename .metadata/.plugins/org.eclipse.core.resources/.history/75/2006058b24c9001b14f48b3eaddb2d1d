@@ -1,0 +1,32 @@
+package br.inatel.dm102;
+
+import java.util.List;
+
+public class CarrinhoDeCompras {
+
+	private String loginCliente;
+
+	private List<Ingresso> ing;
+
+	public void addIngresso(Ingresso ing) {
+		this.ing.add(ing);
+	}
+
+	public void mostraDetalhesCompras() {
+		System.out.println("mostraDetalhesCompras CarrinhoDeCompras");
+	}
+
+	private float valorTotalDaCompra() {
+		boolean temIngressoKids = false;
+		float valorTotalDaCompra = 0.0f;
+		for (Ingresso ingresso : this.ing) {
+			if (ingresso instanceof Kids)
+				temIngressoKids = true;
+			valorTotalDaCompra += ingresso.valorIngresso;
+		}
+		if (temIngressoKids)
+			valorTotalDaCompra = valorTotalDaCompra * 0.5f;
+		return valorTotalDaCompra;
+	}
+
+}

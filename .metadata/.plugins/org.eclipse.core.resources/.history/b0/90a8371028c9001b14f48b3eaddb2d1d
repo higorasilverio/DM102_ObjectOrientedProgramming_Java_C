@@ -1,0 +1,18 @@
+package br.inatel.dm102;
+
+import java.util.Date;
+
+public class Kids extends VIP {
+
+	public Kids(long numero, float valorIngresso, Date dataHoraCompra, String tamanhoAbada, String docResponsavel) {
+		super(numero, valorIngresso, dataHoraCompra, tamanhoAbada);
+		this.docResponsavel = docResponsavel;
+	}
+
+	private String docResponsavel;
+
+	public void setDocResponsavel(String docResponsavel) {
+		this.docResponsavel = docResponsavel;
+	}
+
+}

@@ -1,0 +1,50 @@
+package br.inatel.dm102;
+
+import java.util.Scanner;
+
+public class ConcertoDeRock {
+	
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		Banda rocks = new Banda();
+		montaBanda(rocks);
+
+	}
+
+	private static void montaBanda(Banda banda) {
+		System.out.println("#---------- MONTANDO UMA BANDA DE ROCK ----------#");
+		selecionaGuitarrista(banda);
+		selecionaBaixista(banda);
+		selecionaBaterista(banda);
+		selecionaVocalista(banda);
+
+	}
+
+	private static void selecionaVocalista(Banda banda) {
+		Musico vocal = new Musico();
+		vocal.funcao = "Vocalista";
+		vocal.nome = "Bruce Dickinson";
+		banda.addMusico(vocal);
+
+	}
+
+	private static void selecionaBaterista(Banda banda) {
+		// TODO Auto-generated method stub
+		// Lars Ulrich
+
+	}
+
+	private static void selecionaBaixista(Banda banda) {
+		// TODO Auto-generated method stub
+		// Flea
+
+	}
+
+	private static void selecionaGuitarrista(Banda banda) {
+		// TODO Auto-generated method stub
+		// Joe Perry
+		
+	}
+
+}

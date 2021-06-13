@@ -1,0 +1,14 @@
+package br.inatel.dm102;
+
+import java.util.Date;
+
+public class VIP extends Ingresso {
+
+	protected String tamanhoAbada;
+
+	public VIP(long numero, float valorIngresso, Date dataHoraCompra, String tamanhoAbada) {
+		super(numero, valorIngresso, dataHoraCompra);
+		this.tamanhoAbada = tamanhoAbada;
+	}
+
+}

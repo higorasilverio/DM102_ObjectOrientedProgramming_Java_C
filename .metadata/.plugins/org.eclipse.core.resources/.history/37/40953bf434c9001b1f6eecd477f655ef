@@ -1,0 +1,24 @@
+package br.inatel.dm102;
+
+public class RedeSocial {
+	
+	protected String senha;
+	protected int numAmigos;
+	
+	public void postarFoto() {
+		System.out.println("*FOTO POSTADA*");
+	}
+	
+	public void postarVideo() {
+		System.out.println("*VÍDEO POSTADO*");
+	}
+	
+	public void postarComentario() {
+		System.out.println("*COMENTÁRIO POSTADO*");
+	}
+	
+	public void curtirPublicacao() {
+		System.out.println("*PUBLICAÇÃO CURTIDA*");
+	}
+
+}

@@ -1,0 +1,47 @@
+package br.inatel.dm102;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Banda {
+	public String nome;
+	public String genero;
+
+	public Empresario empresario;
+	public List<Musico> musicos = new ArrayList<>();
+	public List<Musica> musicas = new ArrayList<>();
+
+	public void addMusico(Musico novoMusico) {
+		this.musicos.add(novoMusico);
+	}
+
+	public void addMusica(Musica novaMusica) {
+		this.musicas.add(novaMusica);
+	}
+
+	public void mostraInfosBanda() {
+		String listaDeArtistas = "Nenhum ainda";
+		if (this.musicos.size() > 0) {
+			listaDeArtistas = "";
+			for (Musico artista : musicos)
+				listaDeArtistas += artista.nome + " (" + artista.funcao + ")" + ", ";
+			listaDeArtistas = listaDeArtistas.substring(0, listaDeArtistas.length() - 2);
+		}
+		String setList = "Nenhuma ainda";
+		if (this.musicas.size() > 0) {
+			setList = "";
+			for (Musica track : musicas)
+				setList += track.nome + " (" + track.tempo + " min)" + ", ";
+			setList = setList.substring(0, setList.length() - 2);
+		}
+		String agente = "Não contratado ainda";
+		if (this.empresario.nome != null)
+			agente = this.empresario.nome + " (CNPJ " + empresario.cnpj + ")";
+		System.out.println("#---------- INFORMAÇÕES ATUALIZADAS DA BANDA ----------#");
+		System.out.println("Banda: " + nome + " (" + genero + ")");
+		System.out.println("Músicos: " + listaDeArtistas);
+		System.out.println("Músicas: " + setList);
+		System.out.println("Empresário: " + agente);
+	}
+
+}

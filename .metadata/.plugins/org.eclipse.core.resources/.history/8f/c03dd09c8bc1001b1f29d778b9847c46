@@ -1,0 +1,21 @@
+package br.inatel.dm102;
+
+import java.util.Scanner;
+
+public class RockConcert {
+	
+	static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) {
+
+		montaBanda();
+
+	}
+
+	private static void montaBanda() {
+		System.out.println("#---------- MONTANDO UMA BANDA DE ROCK ----------#");
+		selecionaGuitarrista
+		
+	}
+
+}

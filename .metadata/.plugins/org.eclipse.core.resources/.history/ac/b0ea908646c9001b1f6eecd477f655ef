@@ -1,0 +1,12 @@
+package br.inatel.dm102;
+
+public class TesteFacebook {
+
+	public static void main(String[] args) {
+
+		Facebook fb = new Facebook();
+		
+
+	}
+
+}

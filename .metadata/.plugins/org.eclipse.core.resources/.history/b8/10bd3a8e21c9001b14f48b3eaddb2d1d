@@ -1,0 +1,27 @@
+package br.inatel.dm102;
+
+import java.util.Date;
+
+public class Ingresso {
+
+	private static long numberGenerator = 0;
+	protected static float taxaCartao = 0.05f;
+
+	private long numero;
+	protected float valorIngresso;
+	protected Date dataHoraCompra;
+
+	public Ingresso() {
+		Ingresso.numberGenerator++;
+	}
+
+	public float calculaTotalIngresso() {
+		return this.valorIngresso + (this.valorIngresso * Ingresso.taxaCartao);
+	}
+
+	public void mostraInfos() {
+		System.out.println("Ingresso [numero=" + numero + ", valorIngresso=" + valorIngresso + ", dataHoraCompra="
+				+ dataHoraCompra + "]");
+	}
+
+}

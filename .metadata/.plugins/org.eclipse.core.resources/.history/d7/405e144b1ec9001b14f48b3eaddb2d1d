@@ -1,0 +1,7 @@
+package br.inatel.dm102;
+
+public class Vip extends Ingresso {
+
+	protected String tamanhoAbada;
+
+}

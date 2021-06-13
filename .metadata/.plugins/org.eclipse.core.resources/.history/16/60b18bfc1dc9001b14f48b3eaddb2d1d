@@ -1,0 +1,7 @@
+package br.inatel.dm102;
+
+public class Camarote extends Ingresso {
+	
+	private String tamanhoCamiseta;
+
+}

@@ -1,0 +1,11 @@
+package br.inatel.dm102;
+
+public class Kids extends VIP {
+
+	private String docResponsavel;
+
+	public void setDocResponsavel(String docResponsavel) {
+		this.docResponsavel = docResponsavel;
+	}
+
+}

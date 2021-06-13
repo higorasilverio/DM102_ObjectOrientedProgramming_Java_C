@@ -1,0 +1,34 @@
+package br.inatel.dm102;
+
+public class Twitter extends RedeSocial implements Compartilhamento {
+
+	@Override
+	public void compartilhar() {
+		System.out.println("*COMPARTILHOU ALGO NO TWITTER*");
+	}
+
+	@Override
+	public void postarFoto() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void postarVideo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void postarComentario() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void curtirPublicacao() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

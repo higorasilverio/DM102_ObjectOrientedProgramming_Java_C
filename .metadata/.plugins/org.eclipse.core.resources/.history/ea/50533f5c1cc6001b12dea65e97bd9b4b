@@ -1,0 +1,15 @@
+package br.inatel.dm102;
+
+public class CarrinhoDeCompras {
+
+	private String loginCliente;
+
+	public void addIngresso(Ingresso ing) {
+
+	}
+
+	public void mostraDetalhes() {
+
+	}
+
+}

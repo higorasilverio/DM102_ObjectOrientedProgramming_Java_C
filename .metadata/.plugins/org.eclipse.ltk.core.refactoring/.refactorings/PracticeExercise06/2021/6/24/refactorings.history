@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;br.inatel.dm102.Vip&apos; to &apos;VIP&apos;&#x0D;&#x0A;- Original project: &apos;PracticeExercise06&apos;&#x0D;&#x0A;- Original element: &apos;br.inatel.dm102.Vip&apos;&#x0D;&#x0A;- Renamed element: &apos;br.inatel.dm102.VIP&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Vip&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;br.inatel.dm102{Vip.java[Vip" matchStrategy="1" name="VIP" qualified="false" references="true" similarDeclarations="false" stamp="1623241751096" textual="false" version="1.0"/>
+</session>

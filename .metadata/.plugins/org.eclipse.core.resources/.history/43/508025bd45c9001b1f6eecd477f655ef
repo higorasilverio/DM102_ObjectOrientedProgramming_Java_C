@@ -1,0 +1,39 @@
+package br.inatel.dm102;
+
+public class Facebook extends RedeSocial implements VideoConferencia, Compartilhamento {
+
+	@Override
+	public void compartilhar() {
+		System.out.println("*COMPARTILHOU ALGO NO FACEBOOK*");
+	}
+
+	@Override
+	public void fazStreaming() {
+		System.out.println("*FEZ STREAMING THE UM JOGO NO FACEBOOK*");
+	}
+
+	@Override
+	public void postarFoto() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void postarVideo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void postarComentario() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void curtirPublicacao() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

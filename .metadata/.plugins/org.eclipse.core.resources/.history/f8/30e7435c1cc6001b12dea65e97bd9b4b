@@ -1,0 +1,21 @@
+package br.inatel.dm102;
+
+import java.util.List;
+
+public class CarrinhoDeCompras {
+
+	private String loginCliente;
+	
+	private List<Ingresso> ing;
+
+	public void addIngresso(Ingresso ing) {
+		this.ing.add(ing);
+	}
+
+	public void mostraDetalhesCompras() {
+		System.out.println("CarrinhoDeCompras [loginCliente=" + loginCliente + ", ing=" + ing + "]");
+	}
+
+	
+
+}

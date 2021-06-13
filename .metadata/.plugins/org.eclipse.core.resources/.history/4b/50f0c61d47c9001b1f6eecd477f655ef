@@ -1,0 +1,24 @@
+package br.inatel.dm102;
+
+public class TesteFacebook {
+
+	public static void main(String[] args) {
+
+		Facebook fb = new Facebook("@Aluno123#fb", 1530);
+		fb.compartilhar();
+		fb.curtirPublicacao();
+		fb.fazStreaming();
+		fb.postarComentario();
+		fb.postarFoto();
+		fb.postarVideo();
+		
+		Twitter tw = new Twitter("@Aluno123#tw", 5679);
+		tw.compartilhar();
+		tw.curtirPublicacao();
+		tw.postarComentario();
+		tw.postarFoto();
+		tw.postarVideo();
+
+	}
+
+}

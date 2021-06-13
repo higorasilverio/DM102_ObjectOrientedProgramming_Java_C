@@ -1,0 +1,12 @@
+package br.inatel.dm102;
+
+public class TesteFacebook {
+
+	public static void main(String[] args) {
+
+		Facebook fb = new Facebook("@Aluno123#fb", 1530);
+		Instagram insta = new Instagram("@Aluno123#insta", 5679);
+
+	}
+
+}

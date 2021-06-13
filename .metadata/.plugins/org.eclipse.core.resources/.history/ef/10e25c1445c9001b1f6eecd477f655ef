@@ -1,0 +1,6 @@
+package br.inatel.dm102;
+
+public class Instagram extends RedeSocial {
+
+
+}
