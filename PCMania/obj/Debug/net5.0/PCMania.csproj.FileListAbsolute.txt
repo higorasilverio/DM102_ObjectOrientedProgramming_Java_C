@@ -1,0 +1,16 @@
+C:\Users\higor.silverio\source\repos\PCMania\bin\Debug\net5.0\PCMania.exe
+C:\Users\higor.silverio\source\repos\PCMania\bin\Debug\net5.0\PCMania.deps.json
+C:\Users\higor.silverio\source\repos\PCMania\bin\Debug\net5.0\PCMania.runtimeconfig.json
+C:\Users\higor.silverio\source\repos\PCMania\bin\Debug\net5.0\PCMania.runtimeconfig.dev.json
+C:\Users\higor.silverio\source\repos\PCMania\bin\Debug\net5.0\PCMania.dll
+C:\Users\higor.silverio\source\repos\PCMania\bin\Debug\net5.0\ref\PCMania.dll
+C:\Users\higor.silverio\source\repos\PCMania\bin\Debug\net5.0\PCMania.pdb
+C:\Users\higor.silverio\source\repos\PCMania\obj\Debug\net5.0\PCMania.csproj.AssemblyReference.cache
+C:\Users\higor.silverio\source\repos\PCMania\obj\Debug\net5.0\PCMania.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\higor.silverio\source\repos\PCMania\obj\Debug\net5.0\PCMania.AssemblyInfoInputs.cache
+C:\Users\higor.silverio\source\repos\PCMania\obj\Debug\net5.0\PCMania.AssemblyInfo.cs
+C:\Users\higor.silverio\source\repos\PCMania\obj\Debug\net5.0\PCMania.csproj.CoreCompileInputs.cache
+C:\Users\higor.silverio\source\repos\PCMania\obj\Debug\net5.0\PCMania.dll
+C:\Users\higor.silverio\source\repos\PCMania\obj\Debug\net5.0\ref\PCMania.dll
+C:\Users\higor.silverio\source\repos\PCMania\obj\Debug\net5.0\PCMania.pdb
+C:\Users\higor.silverio\source\repos\PCMania\obj\Debug\net5.0\PCMania.genruntimeconfig.cache
