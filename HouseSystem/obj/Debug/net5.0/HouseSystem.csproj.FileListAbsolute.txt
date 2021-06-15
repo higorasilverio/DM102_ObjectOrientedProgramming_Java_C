@@ -1,0 +1,16 @@
+C:\Users\higor.silverio\source\repos\HouseSystem\bin\Debug\net5.0\HouseSystem.exe
+C:\Users\higor.silverio\source\repos\HouseSystem\bin\Debug\net5.0\HouseSystem.deps.json
+C:\Users\higor.silverio\source\repos\HouseSystem\bin\Debug\net5.0\HouseSystem.runtimeconfig.json
+C:\Users\higor.silverio\source\repos\HouseSystem\bin\Debug\net5.0\HouseSystem.runtimeconfig.dev.json
+C:\Users\higor.silverio\source\repos\HouseSystem\bin\Debug\net5.0\HouseSystem.dll
+C:\Users\higor.silverio\source\repos\HouseSystem\bin\Debug\net5.0\ref\HouseSystem.dll
+C:\Users\higor.silverio\source\repos\HouseSystem\bin\Debug\net5.0\HouseSystem.pdb
+C:\Users\higor.silverio\source\repos\HouseSystem\obj\Debug\net5.0\HouseSystem.csproj.AssemblyReference.cache
+C:\Users\higor.silverio\source\repos\HouseSystem\obj\Debug\net5.0\HouseSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\higor.silverio\source\repos\HouseSystem\obj\Debug\net5.0\HouseSystem.AssemblyInfoInputs.cache
+C:\Users\higor.silverio\source\repos\HouseSystem\obj\Debug\net5.0\HouseSystem.AssemblyInfo.cs
+C:\Users\higor.silverio\source\repos\HouseSystem\obj\Debug\net5.0\HouseSystem.csproj.CoreCompileInputs.cache
+C:\Users\higor.silverio\source\repos\HouseSystem\obj\Debug\net5.0\HouseSystem.dll
+C:\Users\higor.silverio\source\repos\HouseSystem\obj\Debug\net5.0\ref\HouseSystem.dll
+C:\Users\higor.silverio\source\repos\HouseSystem\obj\Debug\net5.0\HouseSystem.pdb
+C:\Users\higor.silverio\source\repos\HouseSystem\obj\Debug\net5.0\HouseSystem.genruntimeconfig.cache
